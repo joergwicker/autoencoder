@@ -50,7 +50,7 @@ trait Layer extends VectorSpace[Layer] with Visualizable {
    *
    * @param backpropagatedError error propagated from above, formatted 
    *   the same way (one row for each example) as input and output
-   * @returns gradient (Layer-valued) and the next backpropagated error
+   * @return gradient (Layer-valued) and the next backpropagated error
    */
   def gradAndBackpropagationError(backpropagatedError: Mat): (Layer, Mat)
   
