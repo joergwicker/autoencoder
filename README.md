@@ -40,4 +40,13 @@ We use maven as a build tool, so simply use
 mvn clean install
 ```
 
-to compile the source code. 
+to compile the source code, or use this Maven dependency to use it in your programm:
+
+```
+    <dependency>
+      <groupId>org.kramerlab</groupId>
+      <artifactId>autoencoder</artifactId>
+      <version>0.1</version>
+    </dependency>
+``` 
+    
