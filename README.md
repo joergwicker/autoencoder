@@ -11,6 +11,7 @@ Bailey, James; Khan, Latifur; Washio, Takashi; Dobbie, Gill; Huang, Zhexue Joshu
 
 Please cite this paper when using the implementation:
 
+```
 @inproceedings{wicker2016nonlinear,
 title = {A Nonlinear Label Compression and Transformation Method for Multi-Label Classification using Autoencoders},
 author = {Jörg Wicker and Andrey Tyukin and Stefan Kramer},
@@ -27,6 +28,7 @@ publisher = {Springer International Publishing},
 address = {Switzerland},
 series = {Lecture Notes in Computer Science}
 }
+```
 
 
 
