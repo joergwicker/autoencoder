@@ -49,4 +49,5 @@ to compile the source code, or use this Maven dependency to use it in your progr
       <version>0.1</version>
     </dependency>
 ``` 
-    
+
+Example usage is in Meka https://github.com/Waikato/meka/blob/master/src/main/java/meka/classifiers/multilabel/Maniac.java#L365
