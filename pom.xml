@@ -9,7 +9,7 @@
   <!-- Version of the POM model is required for maven backward compatibility -->
   <modelVersion>4.0.0</modelVersion>
   <!-- Id of the group -->
-  <groupId>nv.wicker</groupId>
+  <groupId>nz.wicker</groupId>
   <!-- name of the project -->
   <artifactId>autoencoder</artifactId>
   <!-- version of the project -->
@@ -431,7 +431,7 @@
     <repository>
       <id>github</id>
       <name>GitHub joergwicker Apache Maven Packages</name>
-      <url>https://maven.pkg.github.com/joergwicker/bmad/</url>
+      <url>https://maven.pkg.github.com/joergwicker/autoencoder/</url>
     </repository>
   </distributionManagement>
 
