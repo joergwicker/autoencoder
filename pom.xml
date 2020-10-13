@@ -9,24 +9,24 @@
   <!-- Version of the POM model is required for maven backward compatibility -->
   <modelVersion>4.0.0</modelVersion>
   <!-- Id of the group -->
-  <groupId>org.kramerlab</groupId>
+  <groupId>nv.wicker</groupId>
   <!-- name of the project -->
   <artifactId>autoencoder</artifactId>
   <!-- version of the project -->
-  <version>0.1</version>
+  <version>0.2</version>
   <!-- Name of the project again...? -->
   <name>${project.artifactId}</name>
   <description>
     Implementation of an autoencoder consisting of multiple restricted
   Boltzmann machines</description>
   <inceptionYear>2013</inceptionYear>
-  <url>https://github.com/kramerlab/ac</url>
+  <url>https://github.com/joergwicker/autoencoder</url>
 
 
   <scm>
-    <connection>scm:git:https://github.com/kramerlab/autoencoder.git</connection>
-    <developerConnection>scm:git:https://github.com/kramerlab/autoencoder.git</developerConnection>
-    <url>https://github.com/kramerlab/autoencoder</url>
+    <connection>scm:git:https://github.com/joergwicker/autoencoder.git</connection>
+    <developerConnection>scm:git:https://github.com/joergwicker/autoencoder.git</developerConnection>
+    <url>https://github.com/joergwicker/autoencoder</url>
     <tag>HEAD</tag>
   </scm>
   
@@ -34,10 +34,10 @@
   <developers>
     <developer>
       <name>Joerg Wicker</name>
-      <email>me@joerg-wicker.org</email>
-      <url>https://joerg-wicker.org</url>
-      <organization>Johannes Gutenberg University Mainz</organization>
-      <organizationUrl>http://www.dm.informatik.uni-mainz.de</organizationUrl>
+      <email>js@wicker.nz</email>
+      <url>https://wicker.nz</url>
+      <organization>University of Auckland</organization>
+      <organizationUrl>https://ml.auckland.ac.nz</organizationUrl>
     </developer>
   </developers>
 
@@ -356,17 +356,6 @@
       </plugin>
       
       <plugin>
-	<groupId>org.sonatype.plugins</groupId>
-	<artifactId>nexus-staging-maven-plugin</artifactId>
-	<version>1.6.3</version>
-	<extensions>true</extensions>
-	<configuration>
-	  <serverId>ossrh</serverId>
-	  <nexusUrl>https://oss.sonatype.org/</nexusUrl>
-	  <autoReleaseAfterClose>true</autoReleaseAfterClose>
-	</configuration>
-      </plugin>
-      <plugin>
 	<groupId>org.apache.maven.plugins</groupId>
 	<artifactId>maven-gpg-plugin</artifactId>
 	<version>1.5</version>
@@ -437,15 +426,12 @@
 
 
 
-  
+
   <distributionManagement>
-    <snapshotRepository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/content/repositories/snapshots</url>
-    </snapshotRepository>
     <repository>
-      <id>ossrh</id>
-      <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+      <id>github</id>
+      <name>GitHub joergwicker Apache Maven Packages</name>
+      <url>https://maven.pkg.github.com/joergwicker/bmad/</url>
     </repository>
   </distributionManagement>
 

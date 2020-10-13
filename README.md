@@ -44,9 +44,9 @@ to compile the source code, or use this Maven dependency to use it in your progr
 
 ```
     <dependency>
-      <groupId>org.kramerlab</groupId>
+      <groupId>nz.wicker</groupId>
       <artifactId>autoencoder</artifactId>
-      <version>0.1</version>
+      <version>0.2</version>
     </dependency>
 ``` 
 
