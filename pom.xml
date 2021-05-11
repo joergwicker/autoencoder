@@ -13,7 +13,7 @@
   <!-- name of the project -->
   <artifactId>autoencoder</artifactId>
   <!-- version of the project -->
-  <version>0.2</version>
+  <version>0.2.1</version>
   <!-- Name of the project again...? -->
   <name>${project.artifactId}</name>
   <description>
